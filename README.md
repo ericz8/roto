@@ -12,9 +12,6 @@ closed-loop controlled with PID.
   <img src="media/robot.png" alt="CAD model of the 3pi+ robot with its 3D-printed bottle-pushing attachment" width="600">
 </p>
 
-A 3D-printed `)o(`-shaped attachment fits over the robot so it can push
-bottles.
-
 ## Results (2025–26 season)
 
 | Competition          | Placement           |
