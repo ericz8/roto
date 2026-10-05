@@ -120,20 +120,6 @@ Everything you are likely to tune is in one of two places:
 - [`src/Controller.cpp`](src/Controller.cpp): PID gains
   (`heading_pid`, `velocity_pid`), velocity feedforward, and output limits
 
-## Unused code
-
-These items are kept in the code but not used by the current route or control
-loop.
-
-| Item | Location | Notes |
-| ---- | -------- | ----- |
-| `TRACK_WIDTH` | `Config.h` | Left over from the old arc-turn code |
-| `FFB`, `BFB`, `FHB`, `BHB`, `FD`, `BD`, `L45`, `R45` | `Commands.h` | Not in the current route |
-| `Command::PIVOT_LEFT`, `Command::PIVOT_RIGHT` | `Commands.h` | The main loop does not handle them |
-| `distance_to_counts()` | `Odometry.cpp` | Not called anywhere |
-| `direction` | `main.ino` | Never read or written |
-| `turnAngle90` | `TurnSensor.h` | Part of the Pololu example and not used here |
-
 ## Credits
 
 The gyro code in `src/TurnSensor.*` is taken directly from the `TurnSensor`
